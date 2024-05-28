@@ -198,6 +198,13 @@ img {
 #levelOne {
   max-height: 30%;
   max-width: 30%;
+  align-items: center;
+}
+
+#financialInc {
+  max-height: 50%;
+  max-width: 50%;
+  align-items: center;
 }
 
 /* STYLE NAV BAR */
