@@ -122,6 +122,18 @@ li {
   color: #281C2D;
 }
 
+iframe {
+  margin: 0;
+  height: 100%;
+  padding-left: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  height: 100vh; /* Full viewport height */
+}
+
+
 .portfolio {
   text-decoration: underline;
   padding: 1em;
@@ -292,3 +304,4 @@ li a {
   font-size: 15px;
   color: #4C3D40;
 }
+
