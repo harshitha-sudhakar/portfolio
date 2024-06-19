@@ -6,7 +6,7 @@
 
 
 body {
- background-color: #F6EEF0;
+ background-color: #050A30;
   display: inline-block;
   margin-top: 0;
   margin-bottom: 7.5%;
@@ -17,15 +17,15 @@ body {
 /* STYLE TEXT */
 h1 {
   padding-left: 25px;
-  background-color: #4C3D40;
+  background-color: #FEFCFF;
   margin-right: 0;
   margin-left: 0;
-  font-family: "Lucida Console", monospace;
+  font-family: "Helvetica", sans-serif;
   font-weight: 800;
   font-size: 60px;
   padding-top: 50px;
   padding-bottom: 50px;
-  color: #F6EEF0;
+  color: #050A30;
 }
 
 em {
@@ -36,15 +36,15 @@ em {
 h2 {
   text-decoration: underline;
   font-size: 40px;
-  font-family: "Lucida Console", monospace;
-  color: #4C3D40;
+  font-family: "Helvetica", sans-serif;
+  color: #ADD3D0;
 }
 
 h3 {
   text-decoration: underline;
   font-size: 60px;
-  font-family: "Lucida Console", monospace;
-  color: #F6EEF0;
+  font-family: "Helvetica", sans-serif;
+  color: #050A30;
   margin-bottom: 25px;
 }
 
@@ -53,7 +53,7 @@ h4 {
   vertical-align: center;
   font-size: 35px;
   font-family: "Helvetica", sans-serif;
-  color: #4C3D40;
+  color: #FEFCFF;
   margin-bottom: 25px;
 }
 
@@ -63,7 +63,7 @@ h5 {
   font-size: 35px;
   margin-left: 50px;
   font-family: "Times New Roman", serif;
-  color: #281C2D;
+  color: #FEFCFF;
   margin-bottom: 25px;
 }
 
@@ -71,7 +71,7 @@ h6 {
   font-size: 30px;
   margin-left: 50px;
   font-family: "Times New Roman", serif;
-  color: #281C2D;
+  color: #FEFCFF;
   margin-bottom: 25px;
 }
 
@@ -79,7 +79,7 @@ h7 {
   font-size: 26px;
   font-weight: 600;
   font-family: "Times New Roman", serif;
-  color: #281C2D;
+  color: #FEFCFF;
   margin-bottom: 25px;
 }
 
@@ -88,17 +88,17 @@ p {
   margin: 25px;
   font-family: "Helvetica", sans-serif;
   font-size: 23px;
-  color: #281C2D;
+  color: #FEFCFF;
 }
 
 li {
   font-family: "Helvetica", sans-serif;
   font-size: 23px;
-  color: #281C2D;
+  color: #FEFCFF;
 }
 
 .space{
-  background-color: #4C3D40;
+  background-color: #050A30;
   margin-top: 6%;
   margin-bottom: 75px;
   padding-bottom: 75px;
@@ -111,7 +111,7 @@ li {
   padding-right: 50px;
   font-family: "Helvetica", sans-serif;
   font-size: 25px;
-  color: #281C2D;
+  color: #FEFCFF;
 }
 
 .writing{
@@ -119,7 +119,7 @@ li {
   margin-right: 75px;
   margin-left: 50px;
   font-size: 23px;
-  color: #281C2D;
+  color: #FEFCFF;
 }
 
 iframe {
@@ -138,8 +138,8 @@ iframe {
   text-decoration: underline;
   padding: 1em;
   font-size: 40px;
-  font-family: "Lucida Console", monospace;
-  color: #4C3D40;
+  font-family: "Helvetica", sans-serif;
+  color: #FEFCFF;
 }  
 
 
@@ -151,7 +151,7 @@ ul {
 
 li {
   margin-bottom: 5px;
-  color: #F6EEF0;
+  color: #050A30;
 }
 
 #secondList {
@@ -169,14 +169,14 @@ li {
 
 #blogList {
   margin-bottom: 5px;
-  color: #4C3D40;
+  color: #FEFCFF;
 }
 
 /* STYLE IMAGES */
 img {
   max-height: 75%;
   max-width: 75%;
-  border: 3px solid #4C3D40;
+  border: none;
 }
 
 #selfie {
@@ -184,15 +184,22 @@ img {
   margin-top: 45px;
   margin-right: 10%;
   max-width: 19%;
-  border: 3px solid #4C3D40;
+  border: 3px solid #FEFCFF;
 }
 
 #maze {
-  margin-left: 10%;
   margin-right: 10%;
+  margin-left: 10%;
   max-height: 30%;
   max-width: 30%;
-  
+}
+
+#empowering {
+  height: 35%;
+  width: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #levelOne {
@@ -202,15 +209,26 @@ img {
 }
 
 #financialInc {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   max-height: 50%;
   max-width: 50%;
+}
+
+#breachbot {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 65%;
+  max-width: 65%;
 }
 
 /* STYLE NAV BAR */
 
 #nav {
   list-style-type: none;
-  background-color: #F6EEF0;
+  background-color: #050A30;
   overflow: hidden;
   padding: 1em;
 }
@@ -220,29 +238,26 @@ img {
   float: right;
 }
 
-#navBar:hover {
-  background-color: #BDB5C0;
-}
 
 li a {
   text-decoration: none;
   font-family: "Lucida Console", monospace;
-  color: #4C3D40;
+  color: #FEFCFF;
   font-size: 1.3em;
   padding: 25px;
 }
 
-#link {
-  font-size: 26px;
-  text-decoration: underline;
-  font-family: "Helvetica", monospace;
-  color: #0000EE;
-  margin-bottom: 25px;
+#link:hover {
+  background-color: #153250;
 }
 
-#blog {
-  color: #4C3D40;
+#link:visited {
+  color: #ADD3D0;
 }
+#blog {
+  color: #FEFCFF;
+}
+
 
 .card-list {
   justify-content: center;
@@ -262,20 +277,20 @@ li a {
 }
 
 #cardHeader {
-  background-color: #4C3D40;
+  background-color: #FEFCFF;
   padding-left: 25px;
   flex: 1;
   font-weight: 600;
   font-size: 40px;
   padding-top: 25px;
   padding-bottom: 25px;
-  color: #F6EEF0;
+  color: #050A30;
 }
 
 .card-content {
   padding: 15px;
   font-size: 100px;
-  color: #F6EEF0;
+  color: #050A30;
 }
 
 
@@ -287,12 +302,12 @@ li a {
 } 
 
 #cardHeader2 {
-  border: 3px solid #4C3D40;
-  background-color: #F6EEF0;
+  border: 3px solid #FEFCFF;
+  background-color: #050A30;
   padding: 25px;
   flex: 1;
   font-weight: 600;
-  color: #4C3D40;
+  color: #FEFCFF;
 }
 
 .card2 {
@@ -308,5 +323,21 @@ li a {
 .card-content2 {
   padding: 15px;
   font-size: 15px;
-  color: #4C3D40;
+  color: #FEFCFF;
+}
+
+.google-slides-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100%;
+  }
+
+  .google-slides-container iframe {
+    width: 80%; /* Adjusted width */
+    max-width: 50%; 
+    height: 450px; /* Fixed height */
+    border: none; /* Removed any border */
+    padding-right: 250px;
+
 }
